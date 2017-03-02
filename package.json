@@ -1,0 +1,33 @@
+{
+  "name": "ease-cluster",
+  "version": "1.0.0",
+  "description": "A simple worker-manager for clustered apps",
+  "keywords": [
+    "cluster",
+    "worker",
+    "process"
+  ],
+  "repository": "patrick-motard/ease-cluster",
+  "homepage": "https://github.com/patrick-motard/ease-cluster",
+  "bugs": "https://github.com/patrickt-motard/ease-cluster/issues",
+  "main": "lib/easeCluster.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "author": "Patrick Motard <motard19@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "lodash.defaults": "^4.0.1"
+  }
+}
